@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Tiny5&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Silkscreen", serif;
+    height: 100vh;
+    background-image: url('../img/background\ 06.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 15px;
+}
+
+.logo , .logo-button{
+    color: #3CA6A6;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Press Start 2P", serif;
+    display: flex;
+    text-decoration: none;
+    padding: 1px 9px;
+    letter-spacing: 3px;
+}
+
+
+.nav-link{
+    color: #F2E3D5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 16px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.heart{
+    height: 6vh;
+    padding: 30px 3px;
+}
+
+.heart:first-child{
+    padding-left: 50px;
+}
+
+#mosca{
+    width: 10%;
+    height: 10%;
+}
+
+
