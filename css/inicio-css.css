@@ -9,7 +9,7 @@
 body{
     font-family: "Silkscreen", serif;
     height: 100vh;
-    background-image: url('../img/background\ 05.gif');
+    background-image: url('../img/background\ 04.gif');
     background-size: cover;
     background-position: center;
 }
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     font-size: 15px;
 }
 
@@ -42,10 +42,14 @@ header{
 
 
 .nav-link{
-    color: #F2A0AF;
+    color: #4aa8f5;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 16px;
+}
+
+.nav-link#home{
+    color: white;
 }
 
 ul{
@@ -69,7 +73,6 @@ main{
     justify-content: center;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid orange;
 }
 
 #button-start{
@@ -93,11 +96,11 @@ main{
 }
 
 .first-major{
-    color: #F2A0AF;
+    color: #4aa8f5;
     line-height: 50px;
     font-size: 22px;
     font-family: 'Silkscreen';
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 40px 40px;
     display: flex;
