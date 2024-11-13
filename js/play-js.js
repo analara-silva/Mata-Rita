@@ -13,7 +13,7 @@ img.style.position = "absolute"
  
 function alteraTamanhoMosquito(){
     //numero * (max - min) + min
-   let numeroAleatorio = Math.random() * 0.35;
+   let numeroAleatorio = Math.random() * 0.60;
    img.style.transform = `scale(${numeroAleatorio + 0.1})`
 }
  

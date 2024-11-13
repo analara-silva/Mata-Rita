@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Tiny5&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    font-family: "Silkscreen", serif;
+    height: 100vh;
+    background-image: url('../img/background\ 06.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game_over{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 35px 25px;
+    margin-top: 250px;
+}
+
+#gameover{
+    color: white;
+    font-size: 120px;
+}
+
+#gameover_animation{
+    height: 180px;
+}
+
+.button{
+    margin-top: 100px;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: #0f0f0f;
+}
+
+.button_link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}

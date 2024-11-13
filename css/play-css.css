@@ -80,4 +80,15 @@ li{
     height: 10%;
 }
 
+#score{
+    font-family: "Press Start 2P", serif;
+    font-size: 28px;
+    color: white;
+}
 
+.hh{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3px;
+    padding-right: 40px;
+}
